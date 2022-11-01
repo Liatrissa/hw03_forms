@@ -9,5 +9,4 @@ class PostForm(forms.ModelForm):
         fields = ('text', 'group')
         widgets = {
             'text': forms.Textarea(attrs={'rows': 7}),
-            'group': forms.Select()
         }
